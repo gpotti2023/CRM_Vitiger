@@ -1,0 +1,30 @@
+
+<suite  thread-count="4" name="Suite"  parallel="tests">
+<listeners>
+<listener  class-name="com.comcast.crm.listenerUtility.ListenerImplimentation"></listener>
+</listeners>
+  <test  name="Test1">
+    <classes>
+      <class name="com.comcast.crm.groupexecution.ContactTest"/>
+    </classes>
+  </test> 
+  
+   <test  name="Test2">
+    <classes>
+      <class name="com.comcast.crm.groupexecution.LeadTest"/>
+    </classes>
+  </test> 
+  
+   <test  name="Test3">
+    <classes>
+      <class name="com.comcast.crm.groupexecution.OrganizationTest"/>
+    </classes>
+  </test> 
+  
+   <test  name="Test4">
+    <classes>
+      <class name="com.comcast.crm.groupexecution.ProductTest"/>
+    </classes>
+  </test> 
+  
+  </suite> <!-- Suite -->

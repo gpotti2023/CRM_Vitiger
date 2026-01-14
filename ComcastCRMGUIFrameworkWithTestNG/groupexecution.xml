@@ -1,0 +1,20 @@
+ 
+<suite name="Suite">
+<listeners>
+<listener  class-name="com.comcast.crm.listenerUtility.ListenerImplimentation"></listener>
+</listeners>
+  <!-- <groups>
+     <run>
+        <include name="SmokeTesting"/>
+        <include name="RegressionTesting"/> 
+     </run>
+  </groups> -->
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.comcast.crm.groupexecution.ContactTest"/>
+      <class name="com.comcast.crm.groupexecution.LeadTest"/>
+      <class name="com.comcast.crm.groupexecution.OrganizationTest"/>
+      <class name="com.comcast.crm.groupexecution.ProductTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

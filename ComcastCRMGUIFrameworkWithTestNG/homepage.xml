@@ -1,0 +1,9 @@
+
+<suite name="Suite">
+<parameter name="BROWSER" value="chrome"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.comcast.crm.others.HomePageVerification"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

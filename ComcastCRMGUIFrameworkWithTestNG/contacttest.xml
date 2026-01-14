@@ -1,0 +1,12 @@
+
+<suite name="Suite">
+<parameter name="BROWSER" value="chrome"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.comcast.crm.groupexecution.ContactTest"/>
+       <methods>
+          <include name="createContactTest"/>
+       </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
