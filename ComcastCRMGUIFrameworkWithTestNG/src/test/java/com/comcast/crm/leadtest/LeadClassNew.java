@@ -14,10 +14,6 @@ public class LeadClassNew {
 		System.out.println("method added");
 	}
 	
-	@Test
-	public void addedMethod2()
-	{
-		System.out.println("method 2 added");
-	}
+	
 
 }
