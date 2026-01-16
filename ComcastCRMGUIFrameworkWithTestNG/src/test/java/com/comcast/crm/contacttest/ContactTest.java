@@ -53,7 +53,7 @@ public class ContactTest extends BaseClass{
 		String actLastName=contactsInfo.getActLastName().getText();
 		if(actLastName.trim().equals(lastName))
 		{
-			System.out.println(lastName+" information is verified==PASS");
+			System.out.println(lastName+" is lastName information is verified==PASS");
 		}
 		else 
 		{
