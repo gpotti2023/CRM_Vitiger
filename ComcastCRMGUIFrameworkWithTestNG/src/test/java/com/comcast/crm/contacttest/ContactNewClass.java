@@ -8,5 +8,11 @@ public class ContactNewClass {
 	{
 		System.out.println("created new class in contacts module");
 	}
+	
+	@Test
+	public void newMethod() {
+		
+	}
+	
 
 }
