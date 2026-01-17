@@ -7,6 +7,7 @@ public class Conflict {
 	public void conflictMethod()
 	{
 		System.out.println("conflict");
+		System.out.println("second conflict");
 	}
 
 }
