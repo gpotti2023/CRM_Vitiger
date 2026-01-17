@@ -43,7 +43,7 @@ public class BaseClassExtentReports {
 		System.out.println("---connected to DB-----");
 		dataBaseUtility.getConnection("jdbc:mysql://49.249.28.218:3307/Ninza_HRM","root@%", "root");
 		
-
+        System.out.println("Base class conflict");
 		ExtentSparkReporter spark=new ExtentSparkReporter("./AdvencedReports/basetest.html");
 		spark.config().setDocumentTitle("CRM_Application");
 		spark.config().setReportName("CRM_Report");
